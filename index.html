@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Buck's Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <br><span>Buck Pendleton.</span></h2>
+            <h3>I'm a Web Developer</h3>
+            <a href="#about" class="btn">About me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+    <div class="content">
+        <div class="contentBx w50">
+            <h3>I'm a Web Developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio rem numquam asperiores laudantium non impedit repellendus ipsam tempore blanditiis, illo totam a officiis culpa sint dolorum? Est perspiciatis delectus suscipit ad. Ea voluptatum necessitatibus saepe quis, dolorem delectus illum, qui adipisci tempore modi quaerat dolore sapiente eos in? A?<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloremque, totam ut impedit omnis ullam ipsa asperiores dolore et veniam corrupti optio vitae! Tempora laboriosam voluptas nihil nisi eum labore hic quia sunt, dolores excepturi laudantium neque adipisci dolorum numquam incidunt, facilis quam magnam veritatis iste, similique distinctio voluptatem fugit.</p>
+        </div>
+        <div class="w50">
+            <img src="https://images.unsplash.com/photo-1517074009205-d9ca5d8b4a63?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80" class="img">
+        </div>
+    </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Services</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/977/977597.svg?token=exp=1616128999~hmac=49a3f0bae39699707c97704cff7514d8" width="100" height="100">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores commodi adipisci distinctio dolorum dignissimos magni corporis ad perspiciatis consequatur aspernatur facilis.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/2920/2920242.svg?token=exp=1616129039~hmac=9a16497acdb519121f3b542c13d4023a" width="100" height="100">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores commodi adipisci distinctio dolorum dignissimos magni corporis ad perspiciatis consequatur aspernatur facilis.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/4392/4392788.svg?token=exp=1616136621~hmac=5541b062d423ce72a95280b65480b107" width="100" height="100">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores commodi adipisci distinctio dolorum dignissimos magni corporis ad perspiciatis consequatur aspernatur facilis.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Latest Work</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="https://images.unsplash.com/photo-1551430872-6b11a04a2be1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1288&q=80">
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <img src="https://images.unsplash.com/photo-1605416798761-222bcc353da6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+                </div>
+            <div class="content">
+            <div class="workBx">
+                <img src="https://images.unsplash.com/photo-1541690304182-f3a2987f7582?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+            </div>
+            <div class="content">
+                <div class="workBx">
+                    <img src="https://images.unsplash.com/photo-1498447817931-2edda1605b97?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+                </div>
+            <div class="heading">
+            <a href="#" class="btn">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="text">
+                    <h3>Phone</h3>
+                    <p>706-825-8040</p>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                    <h3>Email</h3>
+                    <p>buckpendleton@gmail.com</p>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div> 
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright © 2021 Buck Pendleton. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
